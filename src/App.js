@@ -8,9 +8,9 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/secured" element={<Dashboard />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="appcartsystems-task/" element={<Main />} />
+        <Route path="appcartsystems-task/secured" element={<Dashboard />} />
+        <Route path="appcartsystems-task/login" element={<Login />} />
       </Routes>
 
       {/* <Main /> */}
